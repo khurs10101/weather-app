@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    margin: 1.5%;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: darkblue;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.citiesAddBtn {
+    border: 1px solid wheat;
+    color: wheat;
+    background-color: darkblue;
+}
+
+.citiesAddBtn:hover {
+    border: 1px solid darkblue;
+    color: darkblue;
+    background-color: pink;
+}
+
+.citiesAddSection {
+    width: 25%;
+    height: 95vh;
+    border: 1px solid darkblue;
+}
+
+.citiesInfoSection {
+    width: 75%;
+    height: 95vh;
+    border: 1px solid black;
+}
+
+.citiesMenuSection {}

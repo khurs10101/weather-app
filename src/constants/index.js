@@ -1,0 +1,2 @@
+export const CITY_STORAGE = "CITY_STORAGE"
+export const FAVORITE_STORAGE = "FAVORITE_STORAGE"

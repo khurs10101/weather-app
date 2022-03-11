@@ -1,0 +1,23 @@
+.menuItems:hover {
+    background-color: pink;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+}
+
+.menuItems {
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid pink;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItemInner {
+    height: 150px;
+    width: 200px;
+    background-color: pink;
+}

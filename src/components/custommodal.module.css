@@ -1,0 +1,40 @@
+.modalRoot {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    width: 40vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.modalTopBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeBtn {
+    border: 1px solid pink;
+    background-color: darkblue;
+    color: pink;
+}
+
+.closeBtn:hover {
+    border: 1px solid darkblue;
+    background-color: pink;
+    color: darkblue;
+}
+
+.searchBar {
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 20px;
+
+}
+
+.searchBarWrapper {
+    display: flex;
+    justify-content: center;
+}

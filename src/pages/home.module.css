@@ -1,0 +1,24 @@
+.root {
+    margin: 2%;
+    border: 1px solid black;
+    height: 95vh;
+}
+
+.btn {
+    background-color: darkblue;
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: pink;
+    color: darkblue;
+    border: 1px solid darkblue;
+    font-weight: 700;
+}
+
+.favoriteSection {
+    margin: 20px;
+}

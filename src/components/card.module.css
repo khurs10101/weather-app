@@ -1,0 +1,61 @@
+.cmRoot {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    margin: 20px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.cmRoot:hover {
+    background-color: darkblue;
+    color: pink;
+    font-weight: 800;
+}
+
+.sRoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid grey;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.flRoot{
+    border: 1px solid darkblue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.wiContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkblue;
+    margin: 12px;
+    border-radius: 8px;
+
+}
+
+
+.favoriteBtn {
+    color: pink;
+    border: 1px solid pink;
+    background-color: darkblue;
+}
+
+.favoriteBtn:hover {
+    color: darkblue;
+    background-color: pink;
+    border: 1px solid darkblue;
+}
