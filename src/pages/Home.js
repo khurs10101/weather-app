@@ -19,6 +19,7 @@ let Home = (props) => {
 
     const displayGrid = () => {
         const arrLength = getFavoriteList().slice(-4).length
+        let weatherArray = getFavoriteList().slice(-4).reverse()
         const noOfRows = Math.ceil(arrLength / 2)
         let rowJsx = []
         for (let i = 0; i < noOfRows; ++i) {
@@ -26,7 +27,7 @@ let Home = (props) => {
             for (let j = 0; j < 2; ++j) {
                 let idx = (i * 2) + j
                 if (idx < arrLength) {
-                    let data = getFavoriteList()[idx]
+                    let data = weatherArray[idx]
                     colJsx.push(<Card cardType="favoriteList" data={data} />)
                 }
             }
